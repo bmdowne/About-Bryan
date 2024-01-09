@@ -1,0 +1,299 @@
+/* variables for colors */
+:root {
+
+--dark: #164863;
+--light: #DDF2FD;
+--border-color: #9BBEC8;
+--navlink-color: #427D9D;
+
+}
+
+
+/* global css */
+
+* {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* element tag css */
+
+body {
+
+    
+    background-color: var(--light);
+    color: var(--dark);
+    
+
+}
+
+header {
+
+    background-color: var(--border-color);
+    font-weight: bold;
+    color: var(--dark);
+    
+}
+
+h1 {
+
+    display: inline-block;
+    padding-left: 15px;
+
+}
+
+h2 {
+
+    margin: 100px 50px 50px 50px;
+    float: right;
+    background-color: var(--border-color);
+
+}
+
+a {
+
+    text-decoration: none;
+    color: var(--dark);
+    
+
+}
+
+p {
+
+    display: inline;
+    text-wrap: wrap;
+
+}
+
+button {
+
+    border: 5px solid var(--border-color) ;
+    background-color: var(--border-color);
+    color: #164863;
+    padding: 0px 15px 0px 15px;
+    margin: 25px 0px 15px 0px;
+
+}
+
+h4 {
+
+    font-size: 18px;
+
+}
+
+article {
+
+    display: inline-block;
+
+}
+
+picture {
+
+    border: 5px solid var(--border-color);
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    display: inline;
+    padding-right: 10px;
+
+}
+
+/* class css*/
+
+.navigation {
+    
+    display:  inline;
+
+}
+
+.navbar {
+    
+    display: inline;
+    align-items: right;
+    float: right;
+    padding-right: 20px;
+   
+    
+    
+}
+
+.nav-link {
+
+    display: inline-block;
+    padding: 10px 20px 0px 20px;
+    
+   
+}
+
+.banner {
+
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(images/pexels-fernando-arcos-211122.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content-section {
+
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.section-title {
+
+    display: inline-block;
+    width: 25%;
+
+}
+
+.about-me {
+
+    display: inline-block;
+    width: 65%;
+    text-wrap: wrap;
+    border-left: 5px solid var(--border-color);
+    padding-left: 5%;
+
+}
+
+.projects {
+    
+    
+    display: inline-block;
+    border-left: 5px solid var(--border-color);
+    padding-left: 5%;
+    width: 65%;
+
+}
+
+.project {
+
+border: 5px solid var(--border-color);
+filter: brightness(80%);
+display: inline-block;
+width: 40%;
+height: 200px;
+margin: 10px;
+min-width: 200px;
+min-height: 150px;
+transition: .5s;
+
+}
+
+.contacts {
+
+    
+    border-left: 5px solid var(--border-color);
+    width: 65%;
+    padding-left: 5%;
+
+}
+
+.contact-links {
+
+    padding-top: 15px;
+    float:left;
+    list-style-type: none;
+    display: inline;
+
+}
+
+.contact {
+
+    display: inline-block;
+    padding: 10px;
+
+}
+
+
+
+/* id css */
+
+#me {
+
+
+
+}
+
+#surf-report {
+
+    background-image: url(images/pexels-emiliano-arano-2127969.jpg);
+    background-size: cover;
+    width: 85%;
+
+}
+
+#led-wall {
+
+    background-image: url(images/pexels-jonathan-meyer-752484.jpg);
+    background-size: cover;
+}
+
+#calculator {
+
+    background-image: url(images/pexels-george-becker-374918.jpg);
+    background-size: cover;
+}
+
+#pastel-puzzles {
+
+    background-image: url(images/pexels-pixabay-262488.jpg);
+    background-size: cover;
+}
+
+#run-buddy {
+
+    background-image: url(images/pexels-juliano-ferreira-1777792.jpg);
+    background-size: cover;
+
+}
+
+
+/* pseudo class css */
+
+.project:hover {
+    filter: brightness(125%);
+}
+
+/* media */
+
+
+@media screen and (max-width: 900px) {
+
+    .nav-link {
+
+        background-color: var(--border-color);
+        margin: 5px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .nav-link{
+
+        background-color: var(--border-color);
+        margin: 5px;
+
+    }
+    
+    .section-title {
+        width: 60%;
+        text-decoration: underline var(--border-color) 5px;
+
+    }
+
+
+}
+
+
+
+
+
