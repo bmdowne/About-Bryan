@@ -37,3 +37,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ![Alt text](/assets/images/Screenshot%20(1).jpg)
 
+## Link to Deployed Page
+
+https://bmdowne.github.io/About-Bryan/
+
