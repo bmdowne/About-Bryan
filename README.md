@@ -47,7 +47,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
 
-
+![Alt text](/assets/images/Screenshot%20(1).jpg)
 
 
 
